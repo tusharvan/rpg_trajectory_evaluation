@@ -4,7 +4,7 @@ import os
 import numpy as np
 
 import trajectory_utils as tu
-import transformations as tf
+import rpg_trajectory_evaluation.transformations as tf
 
 
 def compute_relative_error(p_es, q_es, p_gt, q_gt, T_cm, dist, max_dist_diff,
