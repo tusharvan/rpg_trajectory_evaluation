@@ -10,10 +10,10 @@ import matplotlib
 from colorama import init, Fore
 
 import add_path
-from trajectory import Trajectory
-import plot_utils as pu
+from rpg_trajectory_evaluation.trajectory import Trajectory
+import rpg_trajectory_evaluation.plot_utils as pu
 from fn_constants import kNsToEstFnMapping, kNsToMatchFnMapping, kFnExt
-from multiple_traj_errors import MulTrajError
+from rpg_trajectory_evaluation.multiple_traj_errors import MulTrajError
 
 init(autoreset=True)
 rc('font', **{'family': 'serif', 'serif': ['Cardo']})
